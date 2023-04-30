@@ -7,7 +7,7 @@ This is a RESTful API for a blog, built using Django and Django Rest Framework.
 1. Clone this repository to your local machine using `git clone https://github.com/<your-username>/blogapi.git`.
 2. Navigate to the cloned directory using `cd blogapi`.
 3. Install the required packages by running `pip install -r requirements.txt`.
-4. Create a `.env` file in the root directory and add your environment variables.
+4. Create a `.env` file in the root directory and add your environment variables or remove the os command and put your own secret key and save while working on it locally.
 5. Run the migrations using `python manage.py migrate`.
 6. Start the development server using `python manage.py runserver`.
 
