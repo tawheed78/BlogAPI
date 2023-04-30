@@ -43,10 +43,12 @@ To run this project, you will need to set the following environment variables:
 - `SECRET_KEY` - Django secret key
 - `DEBUG` - set to `True` for development, `False` for production
 - `ALLOWED_HOSTS` - comma-separated list of allowed hosts
-- `DATABASE_URL` - PostgreSQL database URL
-- `JWT_SECRET_KEY` - JWT secret key
-- `JWT_ALGORITHM` - JWT algorithm (default is `HS256`)
-- `JWT_EXPIRATION_DELTA` - JWT expiration time (default is `7 days`)
+- `JWT_ALGORITHM` - (default is `HS256`)
+- `JWT_EXPIRATION_DELTA` - (default is `7 days`)
+
+
+
+
 
 ## Contributing
 
